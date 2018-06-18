@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="example.api.zhaojie.allappapitav">
+    package="example.api.zhaojie.notificationdemo">
 
     <application
         android:allowBackup="true"
@@ -16,8 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NotificationTestActivity">
+        <activity android:name=".BasicNotification" >
         </activity>
+        <activity android:name=".SetStyleNotification">
+        </activity>
+        <activity android:name=".TapNotification">
+        </activity>
+        <activity android:name=".ResponseTapNotificationActivity">
+        </activity>
+        <activity android:name=".ButtonNotification">
+        </activity>
+        <activity android:name=".CategoryNotification">
+        </activity>
+        <activity android:name=".VisibilityNotification">
+        </activity>
+        <activity android:name=".GroupNotification">
+        </activity>
+
     </application>
 
 </manifest>

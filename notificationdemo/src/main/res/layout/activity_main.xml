@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/basic_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/basic_notification"/>
+
+    <Button
+        android:id="@+id/setstyle_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setstyle_notification"/>
+
+    <Button
+        android:id="@+id/tap_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_notification"/>
+
+    <Button
+        android:id="@+id/button_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_notification"/>
+
+    <Button
+        android:id="@+id/category_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/category_notification"/>
+
+    <Button
+        android:id="@+id/visibility_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/visibility_notification"/>
+
+    <Button
+        android:id="@+id/group_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/group_notification"/>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/basic_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/send_basic_notification"/>
+
+    <Button
+        android:id="@+id/basic_update_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/update_basic_notification"/>
+
+    <Button
+        android:id="@+id/alert_once_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/send_alert_once_notification"/>
+
+    <Button
+        android:id="@+id/update_alert_once_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/update_alert_once_notification"/>
+
+    <Button
+        android:id="@+id/timeout_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/send_timeout_notification"/>
+
+    <Button
+        android:id="@+id/cancel_basic_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/cancel_basic_notification"/>
+
+    <Button
+        android:id="@+id/cancel_all_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/cancel_all_notification"/>
+
+    <Button
+        android:id="@+id/basic_bycompat_button"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/send_basic_bycompat_notification"/>
+
+</LinearLayout>

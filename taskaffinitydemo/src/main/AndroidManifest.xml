@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.api.zhaojie.taskaffinitydemo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".TaskAffinityDemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--设置allowTaskReparenting == true,-->
+        <!--taskAffinity为其他应用的包名, 这里是:notificationdemo-->
+        <!--验证在当该Activity退到后台启动notification时的现象，是否会显示-->
+        <activity android:name=".TaskAffinityDemoAllowActivity"
+            android:allowTaskReparenting="true"
+            android:taskAffinity="example.api.zhaojie.notificationdemo">
+        </activity>
+
+        <activity android:name=".TaskAffinityDemoNotAllowActivity">
+        </activity>
+    </application>
+
+</manifest>

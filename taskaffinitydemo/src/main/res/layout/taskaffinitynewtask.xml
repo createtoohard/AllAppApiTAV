@@ -7,12 +7,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TaskAffinityDemoNotAllowActivity" />
-
-    <Button
-        android:id="@+id/start_another_activity_with_newtask"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="strat activity with new task"/>
+        android:text="TaskAffinityDemoNewTaskActivity" />
 
 </LinearLayout>

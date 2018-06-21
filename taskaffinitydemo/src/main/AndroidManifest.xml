@@ -27,6 +27,9 @@
 
         <activity android:name=".TaskAffinityDemoNotAllowActivity">
         </activity>
+        <activity android:name=".TaskAffinityDemoNewTaskActivity"
+            android:taskAffinity="example.api.zhaojie.notificationdemo">
+        </activity>
     </application>
 
 </manifest>

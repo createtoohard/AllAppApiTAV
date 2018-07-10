@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">activitydemo</string>
+    <string name="start_launch_mode">start check launch mode</string>
+</resources>

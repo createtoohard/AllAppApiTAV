@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">handlerdemo</string>
+    <string name="typical_looper_thread">typical looper thread</string>
+</resources>

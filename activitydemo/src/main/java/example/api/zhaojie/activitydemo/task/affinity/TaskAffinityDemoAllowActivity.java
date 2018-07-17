@@ -8,6 +8,8 @@ import android.support.annotation.Nullable;
 import android.view.View;
 import android.widget.Button;
 
+import example.api.zhaojie.activitydemo.R;
+
 public class TaskAffinityDemoAllowActivity extends Activity {
     private Button mButton;
     @Override

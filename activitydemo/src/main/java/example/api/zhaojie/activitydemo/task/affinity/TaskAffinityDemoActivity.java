@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import example.api.zhaojie.activitydemo.R;
+
 public class TaskAffinityDemoActivity extends Activity {
 
     private Button mStartAnotherActivityButton;

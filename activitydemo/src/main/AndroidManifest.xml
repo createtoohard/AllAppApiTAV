@@ -16,7 +16,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".task.launchmode.CheckLaunchModeActivity">
+
+
+        <!--Launch Mode-->
+        <activity android:name=".task.launchmode.LaunchModeMainActivity"
+            android:taskAffinity="@string/launchmode_main_activity_taskaffinity">
+        </activity>
+        <activity android:name=".task.launchmode.LaunchModeStandardActivity"
+            android:taskAffinity="@string/launchmode_standard_activity_taskaffinity"
+            android:launchMode="standard">
+        </activity>
+        <activity android:name=".task.launchmode.LaunchModeSingleTopActivity"
+            android:taskAffinity="@string/launchmode_singletop_activity_taskaffinity"
+            android:launchMode="singleTop">
+        </activity>
+        <activity android:name=".task.launchmode.LaunchModeSingleTaskActivity"
+            android:taskAffinity="@string/launchmode_singletask_activity_taskaffinity"
+            android:launchMode="singleTask">
+        </activity>
+        <activity android:name=".task.launchmode.LaunchModeSingleInstanceActivity"
+            android:taskAffinity="@string/launchmode_singleinstance_activity_taskaffinity"
+            android:launchMode="singleInstance">
         </activity>
     </application>
 

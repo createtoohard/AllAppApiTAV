@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button android:id="@+id/launchmode_standard_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launchmode_standard"/>
+
+    <Button android:id="@+id/launchmode_singletop_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launchmode_singletop"/>
+
+    <Button android:id="@+id/launchmode_singletask_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launchmode_singletask"/>
+
+    <Button android:id="@+id/launchmode_singleinstance_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/launchmode_singleinstance"/>
+
+</LinearLayout>

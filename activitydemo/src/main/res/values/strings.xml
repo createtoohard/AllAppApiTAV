@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">activitydemo</string>
     <string name="start_launch_mode">start check launch mode</string>
+    <string name="launchmode_main_activity_taskaffinity">launchmode_main_activity_task.affinity</string>
+    <string name="launchmode_standard_activity_taskaffinity">launchmode_standard_activity_task.affinity</string>
+    <string name="launchmode_singletop_activity_taskaffinity">launchmode_singletop_activity_task.affinity</string>
+    <string name="launchmode_singletask_activity_taskaffinity">launchmode_singletask_activity_task.affinity</string>
+    <string name="launchmode_singleinstance_activity_taskaffinity">launchmode_singleinstance_activity_task.affinity</string>
+
     <string name="single_top">single top</string>
+    <string name="start_check_affinityaa">start check affinity</string>
+    <string name="launchmode_standard">launch mode standard</string>
+    <string name="launchmode_singletop">launch mode single top</string>
+    <string name="launchmode_singletask">launch mode single task</string>
+    <string name="launchmode_singleinstance">launch mode single instance</string>
 </resources>

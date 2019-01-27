@@ -9,12 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/activitydemo" />
-<<<<<<< HEAD
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/handlerdemo" />
-            <option value="$PROJECT_DIR$/notificationdemo" />
-            <option value="$PROJECT_DIR$/taskaffinitydemo" />
-=======
             <option value="$PROJECT_DIR$/animatedemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/bitmapdemo" />
@@ -23,7 +17,6 @@
             <option value="$PROJECT_DIR$/notificationdemo" />
             <option value="$PROJECT_DIR$/taskaffinitydemo" />
             <option value="$PROJECT_DIR$/windowdemo" />
->>>>>>> 909510d7b09e0cffa9efb7ec77cc3aed2b9101ca
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

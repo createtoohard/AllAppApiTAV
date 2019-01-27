@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/handlerdemo" />
             <option value="$PROJECT_DIR$/notificationdemo" />
             <option value="$PROJECT_DIR$/taskaffinitydemo" />
+            <option value="$PROJECT_DIR$/viewdemo" />
             <option value="$PROJECT_DIR$/windowdemo" />
           </set>
         </option>

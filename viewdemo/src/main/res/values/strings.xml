@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">viewdemo</string>
+    <string name="list_view">listview</string>
+    <string name="recyler_view">recylerview</string>
+</resources>

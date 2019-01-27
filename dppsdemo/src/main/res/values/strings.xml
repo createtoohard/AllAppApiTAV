@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">dppsdemo</string>
+    <string name="enable_ad">enable ad</string>
+    <string name="disable_ad">disable ad</string>
+</resources>

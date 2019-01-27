@@ -1,1 +1,1 @@
-include ':app', ':notificationdemo', ':taskaffinitydemo', ':activitydemo', ':handlerdemo'
+include ':app', ':notificationdemo', ':taskaffinitydemo', ':activitydemo', ':handlerdemo', ':windowdemo', ':dppsdemo', ':animatedemo', ':bitmapdemo'

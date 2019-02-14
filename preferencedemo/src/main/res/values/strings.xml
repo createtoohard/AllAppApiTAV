@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">preferencedemo</string>
+    <string name="title">title</string>
+    <string name="summary">summary</string>
+    <string name="preference_key">preference_key</string>
+</resources>

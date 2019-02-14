@@ -1,11 +1,11 @@
 package com.example.animatedemo;
 
-import android.animation.TimeInterpolator;
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.DecelerateInterpolator;
 import android.view.animation.LinearInterpolator;
@@ -13,6 +13,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+
+import com.example.animatedemo.frameanimation.FrameAnimationByXML;
 
 public class MainActivity extends Activity implements ListView.OnItemClickListener{
 
@@ -30,7 +32,7 @@ public class MainActivity extends Activity implements ListView.OnItemClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        startFrameAnimationActivity();
 
     }
 
@@ -65,6 +67,14 @@ public class MainActivity extends Activity implements ListView.OnItemClickListen
                 break;
 
         }
+    }
+
+    private void startFrameAnimationActivity() {
+        Intent mIntent = new Intent();
+        //ComponentName mComponentName = new ComponentName("com.example.animatedemo.frameanimation","FrameAnimationByXML");
+        ComponentName mComponentName = new ComponentName(this,FrameAnimationByXML.class);
+        mIntent.setComponent(mComponentName);
+        startActivity(mIntent);
     }
 
 

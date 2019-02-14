@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">animatedemo</string>
+    <string name="frameanimation_start">start</string>
+    <string name="frameanimation_stop">stop</string>
 </resources>
